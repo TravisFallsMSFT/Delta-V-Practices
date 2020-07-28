@@ -10,6 +10,7 @@
 
 | Command | Action | 
 | ------- | ------- |
+| CTRL+` | Open the integrated terminal
 | `CTRL+\` | Divide your screen |
 | `CTRL+/` | Comment or uncomment current line |
 | `CTRL+F` | Open "Find" window  |

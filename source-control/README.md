@@ -38,7 +38,7 @@ To collaborate more efficiently we can all agree to operate in a specific way. d
    - Use `git remote -v` for additional verbosity
  - `git revert`
    - Undo the most recent commit
-   - Use `git revert --no-commit` to avoid the addition of a revert commit
+   - Use `git revert --no-commit` to avoid "merge conflict" the addition of a revert commit
  - `git reset`
    - Reset the state of the repository to the given hash
    - Use `git reset HEAD --hard` to undo any file changes or additions
@@ -47,15 +47,53 @@ To collaborate more efficiently we can all agree to operate in a specific way. d
    - Use `git reset <sha>` to undo changes up to a specific commit
  - `git rebase`
    - Change the base commit of your feature branch
- - `git merge <branch-a> <branch-b>`
-   - Merge the commits from `branch-a` to `branch-b`
-   - `git merge --abort`
-   - `git merge --continue`
+ - `git merge <base-branch>`
+   - Merge the commits from your feature branch to the base branch 
+   - Use `git merge --abort` to abandon the merge and undo any changes 
+   - Use `git merge --continue` to indicate that you have resolved any merge conflicts
  - `git branch`
    - List all local branches
    - Use `git branch -D <branch-name>` to delete a branch
+  
 ## Erase a commit on your local repository
+
+If you committed changes to the repository and later realized you wanted to undo that commit, you can easily reset your local repository so that the commit no longer appears. Note that the file changes still exist because we use the `--soft` argument.
+
+`git reset HEAD~1 --soft`
 
 ## Erase a commit on your remote repository
 
+If you committed changes that you pushed to the remote but you'd like to undo that work, you can do so using a force push. First, undo the commit locally. Note that the changes made to these files no longer exist as we've used the `--hard` argument.
+
+`git reset HEAD~1 --hard` 
+
+Once you have reset locally you can make different changes if necessary. After you've committed these changes you would perform a force push to rewrite the commit history on your remote repository
+
+`git push --force`
+
+
+## Redo an action
+In addition to the above methods of undoing changes you've made, you can also go frward in time by redoing changes you've erased. `git` keeps a `reflog` of all commands you've executed, so you're able to point to those commands and reset to the state prior to execution using `git reset HEAD@{1}`
+
 ## Resolve a merge conflict
+When two branches have differing, overlapping file changes, performing a `git merge` will result in a merge conflict. A merge conflict writes directly to the file where it arose and indicates the changes on your branch as well as the changes on the base branch.
+
+```
+file.md
+
+<<<<<<< <HEAD of base branch> 
+I think abc
+=======
+I definitely think xyz
+>>>>>>> <Your most recent commit sha>
+```
+
+To resolve a merge conflict you must consolidate the state of the file. This means deciding if you want to keep your changes, the base branch changes, or a combination of the two.
+
+```
+file.md
+
+I definitely think abc
+```
+
+Once the file is in a valid state again and you've removed the indicators created from the merge conflict you can use `git merge --continue` to add the changed file.
