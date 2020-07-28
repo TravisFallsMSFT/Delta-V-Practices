@@ -1,2 +1,3 @@
-# Delta-V-Team-Information
-Delta V notes
+<p align="center">
+  ![Alt text](assets/images/logo.png)
+</p>
