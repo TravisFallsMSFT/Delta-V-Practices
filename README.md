@@ -1,3 +1,3 @@
 <p align="center">
-  ![Alt text](assets/images/logo.png)
+  ![Potential Delta-V Team Logo](assets/images/DeltaVTeamLogo.png)
 </p>
