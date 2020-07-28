@@ -47,8 +47,8 @@ To collaborate more efficiently we can all agree to operate in a specific way. d
    - Use `git reset <sha>` to undo changes up to a specific commit
  - `git rebase`
    - Change the base commit of your feature branch
- - `git merge <base-branch>`
-   - Merge the commits from your feature branch to the base branch 
+ - `git merge <other-branch>`
+   - Merge the commits from a branch into the branch you are currently on 
    - Use `git merge --abort` to abandon the merge and undo any changes 
    - Use `git merge --continue` to indicate that you have resolved any merge conflicts
  - `git branch`
