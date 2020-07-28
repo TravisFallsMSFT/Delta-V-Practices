@@ -8,7 +8,7 @@
      - As early in the sprint as possible
    - [Backlog Grooming](https://github.com/microsoft/code-with-engineering-playbook/tree/master/backlog-management/grooming)
      - The same day we do Sprint Planning
-   - Design Review
+   - [Design Review](https://github.com/microsoft/code-with-engineering-playbook/tree/master/design-reviews)
      - Tuesdays and Thursdays as needed
-   - Retrospective
+   - [Retrospective](https://github.com/microsoft/code-with-engineering-playbook/tree/master/retrospectives)
      - As late in the sprint as possible

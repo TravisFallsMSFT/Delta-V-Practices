@@ -51,7 +51,9 @@ To collaborate more efficiently we can all agree to operate in a specific way. d
    - Merge the commits from `branch-a` to `branch-b`
    - `git merge --abort`
    - `git merge --continue`
-
+ - `git branch`
+   - List all local branches
+   - Use `git branch -D <branch-name>` to delete a branch
 ## Erase a commit on your local repository
 
 ## Erase a commit on your remote repository
