@@ -5,6 +5,7 @@
 | Command | Action |
 | ------- | ------- |
 | `Win+Shift+S` | Open the "Snip" bar to take full screenshots or cropped square or freeform snips |
+| `Win+E` | Opens Windows Explorer |
 
 ## VS Code
 

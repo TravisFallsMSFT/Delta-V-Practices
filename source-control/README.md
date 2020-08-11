@@ -21,6 +21,7 @@ Steps
  - Add requirements of the given feature
  - Write appropriate unit tests to ensure those requirements are met
  - Write integration tests to ensure your code does not break the repository
+ - Pull 'dev' to ensure you have the latest merged into your feature branch for smoother merging
  - Create a pull request on GitHub with 2 or more reviewers
  - Once all issues are rectified, conflicts are resolved, and CI/CD tests pass, the branch can be merged
 
@@ -36,6 +37,8 @@ Steps
  - All feature branches come off of dev
  - All code that is PR'd contains unit and integration testing
 
+## Branch Retention to Match Rings for Deployment
+
 ## Code Review Tips
 
 Code reviews present an opportunity for sharing and growth. Remember that code reviews should always remain **entirely impersonal**. Remove the person from your feedback, and as a developer know that you are not your code. Much context around body language and tone of voice is lost over text so be sure to always provide code reviews that focus on only the quality of the code and potential risks. Likewise, do not interpret others reviewing your code as anything but helpful and productive. 
@@ -49,6 +52,10 @@ Questions that may help guide you during the code review process
  - Is this a solved problem?
  - Is the code repetitive?
  - Does
+
+### Artifacts
+#### Links
+- ["PluralSight's The Engineering Manager's Guide to the Code Review Process"](https://www.pluralsight.com/blog/tutorials/code-review){:target="_blank"}
 
 ## Common Commands
 
