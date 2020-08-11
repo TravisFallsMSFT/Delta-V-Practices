@@ -38,15 +38,17 @@ Steps
 
 ## Code Review Tips
 
-Code reviews present an opportunity for sharing and growth. Remember that code reviews should always remain **entirely impersonal**. Much context around body language and tone of voice is lost over text, so be sure do always provide code reviews that focus on only the quality of the code and potential risks. Likewise, do not interpret others reviewing your code as anything but helpful and productive. 
+Code reviews present an opportunity for sharing and growth. Remember that code reviews should always remain **entirely impersonal**. Remove the person from your feedback, and as a developer know that you are not your code. Much context around body language and tone of voice is lost over text so be sure to always provide code reviews that focus on only the quality of the code and potential risks. Likewise, do not interpret others reviewing your code as anything but helpful and productive. 
 
 Questions that may help guide you during the code review process
 
- - Is this section of the code the part that is responsible for a certain feature?
- - Does the developer need to see this or can/should it be abstracted away?
+ - Is this section of the code the part that is responsible for this feature?
+ - Does the developer need to see this here or can/should it be abstracted away?
  - Does this code make assumptions about what is given to it or taken from it?
  - Does the code introduce unnecessary complexity?
  - Is this a solved problem?
+ - Is the code repetitive?
+ - Does
 
 ## Common Commands
 
