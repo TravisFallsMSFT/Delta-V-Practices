@@ -4,16 +4,21 @@ A common understanding of how source control works is fundamental to good softwa
 
 ## Git vs. GitHub
 
-"Facebook for your code" varying concepts don't exist in raw Git (e.g. pull requests)
+To aid in your understanding of Git, it is helpful to understand that Git and GitHub are not the same thing. This is a common misconception. Git is a version control system that allows you to manage multiple workflows into a single codebase. GitHub can be thought of as a tool for Git, a "Facebook for code" so to speak. GitHub enables use of Git in a collaborative way allowing others to see and contribute to your code, and vice versa. To Git, this is just your remote repository. This can be on GitHub, but also on another service like BitBucket or GitLab. You can even point to a remote you host yourself on a VM in Azure.
+
+Understanding the difference between Git and GitHub is helpful in knowing what features GitHub provides you that are not native concepts in Git. A key example of this is pull requests. In regular Git you can merge between branches but there is no notion of requesting to do so. Similarly, issues also only exist on GitHub.
 
 ## Plumbing
+--WIP--
 Ideally the way we get started on a project is to setup all the "plumbing" as early as possible. If we expect a solution to exist in a Docker container, for example, this container should be added with a simple "Hello World" application first to ensure that this works.
 
 ## Git Flow
 
-To collaborate more efficiently we can all agree to operate in a specific way. Adopting Git Flow 
+To collaborate more efficiently we can all agree to operate in a specific way. Adopting Git Flow is a standard across the industry and provides an excellent place to start. We can make modifications as we progress that fit our team but we can start with this baseline.
 
 Steps
+ - Ensure you have no conflicting work by running `git status`
+   - If you do have conflicting work but want to include it in your feature branch, you can do so using `git stash push` to hide your changes temporarily. Then, once you have synced the `main` and `dev` branch, you can run `git stash pop` to bring your changes back. 
  - Pull `main` and `dev` to ensure you have the latest
  - Create a new branch from `dev`
    - Name this branch with your initials or alias, slash, then what you're working on
