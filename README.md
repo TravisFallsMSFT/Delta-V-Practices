@@ -1,16 +1,16 @@
 <div align='center'>
   <p>
-    <img src='/assets/images/Delta-V-Team-Logo.png?raw=true' width="50%" height="50%" alt='Potential Delta-V Team Logo'>  
+    <img src='https://github.com/TravisFallsMSFT/Delta-V-Practices/tree/TravisFallsMSFT/UpdateToProcessesDocumentation/assets/images/Delta-V-Team-Logo.png?raw=true' alt='Potential Delta-V Team Logo' width="50%" />  
   </p>
-  <span>Potential Delta-V Team Logo</span>
+  <span>Delta-V: "Always in Motion"</span>
 </div>
 
-# Delta-V-Practices
+# Delta-V Team Practices
 
 ## What is this repository?
-This is a place that represents internal discussions and artifacts around the way we operate as a team and brand ourselves. You are free to add your own opinions knowing that this will open a discussion with the team for what process we'd like to collectively adopt. 
+This is a place that represents internal discussions and artifacts about the way we operate as a team and "brand" ourselves. We are free to add our opinions.  This will open a discussion with the team for what process we'd like to collectively adopt. 
 
-Ensuring that we come to an agreement that everyone is satisfied with is priority. Much of the information for good engineering practices can be found in the [CSE Engineering Playbook](https://github.com/microsoft/code-with-engineering-playbook). What we hope to add here is the "*how*" we use these processes, more than the "*what*" these processes should be.
+Ensuring that we come to an agreement that everyone is satisfied with is priority. Much  information regarding good engineering practices can be found in the [CSE Engineering Playbook](https://github.com/microsoft/code-with-engineering-playbook). What we hope to add here is the "*how*" we use these processes and augment them with additional resources rather than simply another list of "*what*" these processes should be.
 
 > Linked documentation is a work in progress and may not be complete
 

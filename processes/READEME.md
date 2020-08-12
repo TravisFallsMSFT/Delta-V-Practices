@@ -9,7 +9,7 @@
    - [Sprint Planning](https://github.com/microsoft/code-with-engineering-playbook/tree/master/sprint-planning)
      - As early in the sprint as possible
 ### Kaizens in Sprints
-[How to use Kaizen for effective sprint retrospectives (and inducing real improvements)](https://medium.com/being-agile/how-to-use-kaizen-for-effective-sprint-retrospectives-and-inducing-real-improvements-ae8becbf5781){:target="_blank"}
+<a href="https://medium.com/being-agile/how-to-use-kaizen-for-effective-sprint-retrospectives-and-inducing-real-improvements-ae8becbf578" target="_blank">How to use Kaizen for effective sprint retrospectives (and inducing real improvements)</a>
 
 ## Design Review
 - [Design Review](https://github.com/microsoft/code-with-engineering-playbook/tree/master/design-reviews)
