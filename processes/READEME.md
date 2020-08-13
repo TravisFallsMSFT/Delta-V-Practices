@@ -5,7 +5,7 @@
      - The same day we do Sprint Planning
 
 ## Sprint Planning
-  Sprints are one (1) to three (3) weeks in length, defined at the inception of the initiative. At sprint's beginning a "Sprint Planning" session is conducted where we pull items off the backlog 
+  Sprints are one (1) to two (2) weeks in length, defined at the inception of the initiative. At sprint's beginning a "Sprint Planning" session is conducted where we pull items off the backlog 
 - [Sprint Planning](https://github.com/microsoft/code-with-engineering-playbook/tree/master/sprint-planning)
      - As early in the sprint as possible
 ### Kaizens in Sprints
