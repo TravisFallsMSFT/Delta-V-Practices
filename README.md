@@ -1,11 +1,14 @@
+# Delta-V Team Practices
+## Potential Logo
+Below is a potential logo for our team.  This is simply a start to put some "paint" on the wall.  We can change it or scrap it, it is simply a starting point so we can have a bit of fun with an identity.  
 <div align='center'>
   <p>
-    <img src='https://github.com/TravisFallsMSFT/Delta-V-Practices/tree/TravisFallsMSFT/UpdateToProcessesDocumentation/assets/images/Delta-V-Team-Logo.png?raw=true' alt='Potential Delta-V Team Logo' width="50%" />  
+    <img src='/assets/images/Delta-V-Team-Logo.png?raw=true' alt='Potential Delta-V Team Logo' width="50%" />  
   </p>
   <span>Delta-V: "Always in Motion"</span>
 </div>
 
-# Delta-V Team Practices
+
 
 ## What is this repository?
 This is a place that represents internal discussions and artifacts about the way we operate as a team and "brand" ourselves. We are free to add our opinions.  This will open a discussion with the team for what process we'd like to collectively adopt. 
@@ -21,7 +24,7 @@ The main idea behind having a document like this is so we have a place to point 
 It is also to promote a team culture that embraces learning and asking questions without fear of being shamed or guilt-ridden.
 
 ### Why the Name "Delta-V"
-The term ["Delta-V"](https://en.wikipedia.org/wiki/Delta-v){:target="_blank"} as defined in Wikipedia comes from the mathematical change in velocity.  Delta-V (literally "change in velocity") is also used as the  measure of "impulse" per-unit of mass needed to perform maneuvers with regard to spacecraft.  An example would be a spacecraft landing on a planet.  
+The term ["Delta-V"](https://en.wikipedia.org/wiki/Delta-v) as defined in Wikipedia comes from the mathematical change in velocity.  Delta-V (literally "change in velocity") is also used as the  measure of "impulse" per-unit of mass needed to perform maneuvers with regard to spacecraft.  An example would be a spacecraft landing on a planet.  
 
 To metaphorically apply this to our team, it represents "our" change in velocity; as a team; as engineers; as individuals.  This change is in working together and constantly becoming more thoughtful, introspective engineers.  This change is in our desire to constantly striving to be more efficient as we grow together. 
 
