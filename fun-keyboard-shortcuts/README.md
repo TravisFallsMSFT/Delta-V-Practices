@@ -9,7 +9,7 @@
 
 ## VS Code
 
-| Command | Action | 
+| Command | Action |
 | ------- | ------- |
 | CTRL+` | Open the integrated terminal
 | `CTRL+\` | Divide your screen |
@@ -19,5 +19,5 @@
 | `ALT+Up` | Move the current line up |
 | `ALT+Down` | Move the current line down |
 | `CTRL+ALT+Up` | Duplicate cursor on above line |
-| `CTRL+ALT+Down` | Duplicate cursor on below line | 
+| `CTRL+ALT+Down` | Duplicate cursor on below line |
 | `ALT+Click` | Multi-line select, typing makes change on each selected line |
