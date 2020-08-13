@@ -106,7 +106,7 @@ Questions that may help guide you during the code review process
 
 If you committed changes to the repository and later realized you wanted to undo that commit, you can easily reset your local repository so that the commit no longer appears. Note that the file changes still exist because we use the `--soft` argument.
 
-```
+```bash
 git reset HEAD~1 --soft
 ```
 
@@ -114,13 +114,13 @@ git reset HEAD~1 --soft
 
 If you committed changes that you pushed to the remote but you'd like to undo that work, you can do so using a force push. First, undo the commit locally. Note that the changes made to these files no longer exist as we've used the `--hard` argument.
 
-```
+```bash
 git reset HEAD~1 --hard
 ```
 
 Once you have reset locally you can make different changes if necessary. After you've committed these changes you would perform a force push to rewrite the commit history on your remote repository
 
-```
+```bash
 git push --force
 ```
 
@@ -128,7 +128,7 @@ git push --force
 
 In addition to the above methods of undoing changes you've made, you can also go forward in time by redoing changes you've erased. `git` keeps a `reflog` of all commands you've executed, so you're able to point to those commands and reset to the state prior to execution using
 
-```
+```bash
 git reset HEAD@{1}
 ```
 
@@ -136,7 +136,7 @@ git reset HEAD@{1}
 
 When two branches have differing, overlapping file changes, performing a `git merge` will result in a merge conflict. A merge conflict writes directly to the file where it arose and indicates the changes on your branch as well as the changes on the base branch.
 
-```
+```bash
 file.md
 
 <<<<<<< <HEAD of base branch>
@@ -148,7 +148,7 @@ I definitely think xyz
 
 To resolve a merge conflict you must consolidate the state of the file. This means deciding if you want to keep your changes, the base branch changes, or a combination of the two.
 
-```
+```bash
 file.md
 
 I definitely think abc
