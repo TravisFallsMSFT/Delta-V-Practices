@@ -34,7 +34,7 @@ Below are a few behavior patterns that we commit to strive to incorporate into o
 
 ### Our Commitments
 1. Focus on growth as individuals, both as engineers, and as citizens of Terra (Earth).   
-2. Stedfast commit to doing "what is right" for our customer from their perspective.
+2. Stedfast commitment to doing "what is right" for our customer from their perspective.
 3. Engineering quality and stewardship is in the foreground of all our efforts
 4. Committed to ever evolving the SCRUM methodology to make the as practical and efficient for Delta-V as possible while still maintaining quality standards
 5. 
