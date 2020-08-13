@@ -21,7 +21,6 @@ Steps
  - Add requirements of the given feature
  - Write appropriate unit tests to ensure those requirements are met
  - Write integration tests to ensure your code does not break the repository
- - Pull 'dev' to ensure you have the latest merged into your feature branch for smoother merging
  - Create a pull request on GitHub with 2 or more reviewers
  - Once all issues are rectified, conflicts are resolved, and CI/CD tests pass, the branch can be merged
 
