@@ -20,4 +20,4 @@
 | `ALT+Down` | Move the current line down |
 | `CTRL+ALT+Up` | Duplicate cursor on above line |
 | `CTRL+ALT+Down` | Duplicate cursor on below line |
-| `ALT+Click` | Multi-line select, typing makes change on each selected line |
+| `ALT+Click` | Multi-line select, typing makes change on each selected line

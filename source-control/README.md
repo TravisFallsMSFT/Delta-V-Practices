@@ -57,11 +57,14 @@ Questions that may help guide you during the code review process
 - Does the code introduce unnecessary complexity?
 - Is this a solved problem?
 - Is the code repetitive?
-- Does
+- [Tips for Code Review as the Reviewer](https://github.com/microsoft/code-with-engineering-playbook/blob/master/code-reviews/process-guidance/reviewer-guidance.md)
+- [Tips for Code Review as the Author](https://github.com/microsoft/code-with-engineering-playbook/blob/master/code-reviews/process-guidance/author-guidance.md)
 
 ### Artifacts
+
 #### Links
-- ["PluralSight's The Engineering Manager's Guide to the Code Review Process"](https://www.pluralsight.com/blog/tutorials/code-review){:target="_blank"}
+
+- PluralSight's ["The Engineering Manager's Guide to the Code Review Process"](https://www.pluralsight.com/blog/tutorials/code-review)
 
 ## Common Commands
 
@@ -110,7 +113,7 @@ Questions that may help guide you during the code review process
   
 ## Erase a commit on your local repository
 
-If you committed changes to the repository and later realized you wanted to undo that commit, you can easily reset your local repository so that the commit no longer appears. Note that the file changes still exist because we use the `--soft` argument.
+If you committed changes to the repository and later realized you wanted to undo that commit, you can easily reset your local repository so that the commit no longer appears. Note that the file changes still exist because we use the `--soft` argument. If you also want to erase file changes you would use the `--hard` argument.
 
 ```bash
 git reset HEAD~1 --soft
@@ -118,13 +121,13 @@ git reset HEAD~1 --soft
 
 ## Erase a commit on your remote repository
 
-If you committed changes that you pushed to the remote but you'd like to undo that work, you can do so using a force push. First, undo the commit locally. Note that the changes made to these files no longer exist as we've used the `--hard` argument.
+If you committed changes that you then also pushed to the remote it is possible to undo that work. You can do so using a force push. First, undo the commit locally. You can use either the `--soft` or `--hard` arguments to undo your commit locally first.
 
 ```bash
-git reset HEAD~1 --hard
+git reset HEAD~1 --<soft/hard>
 ```
 
-Once you have reset locally you can make different changes if necessary. After you've committed these changes you would perform a force push to rewrite the commit history on your remote repository
+Once you have reset locally you can make different changes and add/commit them if necessary. If you don't have anything else to add you can move forward do a force push. This will rewrite the commit history on your remote repository
 
 ```bash
 git push --force

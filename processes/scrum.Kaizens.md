@@ -1,6 +1,9 @@
 # Kaizen
+
 ## Introduction
+
 The term "Kaizen" has become popular again in the business and software engineering world.  The term Kaizen comes from two specific Japanese words:
+
 - Kai - Change
 - Zen - Good
 
